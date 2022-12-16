@@ -11,3 +11,16 @@
             }
            
 ?>
+
+
+
+  $auto = [
+                "marca" => "ford"
+                "modelo" => "focus"
+                "año" => 2017
+            ];
+            
+            foreach ($auto as $posicion => $valor){
+                  echo "$posicion: $valor <br>";
+            }
+           
